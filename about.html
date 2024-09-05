@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<style>
+
+    /*hedar*/
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+  
+
+
+.logo img {
+    height: 80px;
+    max-width: 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(180deg, skyblue,white);
+}
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+.heading h1{
+    font-size: 50px;
+    color: #000;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.container{
+    width: 90%; 
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+
+}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-image img:hover{
+    transform: scale(1.2);
+}
+
+/*footar*/
+.footer {
+    background-color:navy;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px 0;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer-section p:hover{
+    color:burlywood;
+}
+.footer-section p:hover{
+    color:burlywood;
+} 
+
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color:burlywood;
+}
+
+.footer-bottom {
+    margin-top: 80%;
+    background-color:navy;
+    color: #ccc;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-flex;
+}
+
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-section {
+        margin: 0 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer-section h4 {
+        font-size: 16px;
+    }
+
+    .footer-section p, 
+    .footer-section ul {
+        font-size: 12px;
+    }
+
+    .footer-logo {
+        max-width: 100px;
+    }
+
+    .social-icons img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+</style>
+<body>
+    <div class="c1">
+    <header>
+        <div class="logo">
+            <a href="#"><img src="ph/adliving.png" alt="Website Logo"></a>
+        </div>
+        </header>
+    <div class="heading">
+        <h1>About Us</h1>
+  </div>
+  <div class="container">
+    <section class="about">
+        <div class="about-image" align="center">
+            <img src="ph/whyad.png"></br></br></br></br></br></br>
+        </div>
+        <div class="about-content">
+            <h2 align="center" style="font-size: 2em;">Welcome To <b> AD LIVING</b></h2></br></br></br>
+            <p style="font-size: 1.4em;">Every student’s and young professionals search for the best LIVING in Ahmedabad truly ends here. Stay AD LIVING offers students and young professionals the kind of living experience that other traditional paying guests in Ahmedabad lack.</p></br></br>
+            <p style="font-size: 1.4em;">We understand the unique needs of working professionals and students. Our thoughtfully designed spaces and amenities ensure that you have everything you need to live comfortably, work efficiently, and connect meaningfully. Whether you want to unwind after a long day at work or engage with like-minded individuals, our PG offers the perfect environment for both.
+            </p> </br></br>
+            <p style="font-size: 1.4em;">A Decade of Experience, our accommodation centre has been a trusted haven for students and professionals seeking comfort, convenience, and affordability. With a decade of expertise, we pride ourselves on providing a home-away-from-home experience, ensuring every guest feels welcomed and valued. From cozy rooms to top-notch amenities, our commitment to excellence has made us a preferred choice for discerning professionals Ahmedabad.</p></br></br>
+        </div>
+    </section>
+  </div>
+   <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo Section -->
+            <div class="footer-section">
+                <img src="ph/ad.png" alt="Your Logo" class="footer-logo">
+        <h4>Office Address</h4>
+        <p>SF/2,Second Floor,Urja House,Nr.The Golden Time,Swastik Char Rasta,Navrangpura,Ahemdabad-380009.</p>
+        <h4>Contact:</h4>
+        <p>+91 98256 75267</p>
+      </p>
+            </div>
+            
+            
+
+            <!-- Quick Links Section -->
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="room.html">ROOM</a></li>
+                    <li><a href="room.html">GALLERY</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Us Section -->
+            <div class="footer-section">
+                <h4>Terms Feed</h4>
+                <p>TERMS & CONDITIONS</p>
+                <p>PRIVACY & POLICY</p>
+            </div>
+
+            <!-- Follow Us Section -->
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                     <a href="https://www.instagram.com/ad__living?utm_source=qr&igsh=MW4wNHJqcWZmOWdkYw=="><img src="ph/instagram.png"></a>
+                <a href="https://www.facebook.com/profile.php?id=61550584150380&mibextid=ZbWKwL"><img src="ph/facebook.png"></a>
+                <a href="https://www.linkedin.com/in/ad-living-2ba742224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="ph/l.png"></a>
+                 <a href="https://www.justdial.com/Ahmedabad/AD-Living-Navrangpura/079PXX79-XX79-190311100204-D7X4_BZDET"><img src="ph/jd.png"></a>
+                </div>
+        <!--copyright section-->
+        <div class="footer-bottom">
+          <p>&copy; 2024 AD Living. All rights reserved.</p>
+        </div>
+            </div>
+        </div>
+
+       
+    </footer>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="room.css">
+    </head>
+    <style>
+
+            /*hedar*/
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+  
+
+
+.logo img {
+    height: 80px;
+    max-width: 100px;
+}
+        /*room*/
+ *{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(180deg, skyblue, white);
+    
+}
+.s{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 2em;
+
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.card-container1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 70px;
+}
+.card1{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 70px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 20px;
+}
+.card-content1{
+    padding: 20px;
+}
+
+.card-content h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}   
+.card-content1 h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}   
+.card-content p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+.card-content1 p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+/*footar*/
+.footer {
+    background-color:navy;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px 0;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer-section p:hover{
+    color:burlywood;
+}
+.footer-section p:hover{
+    color:burlywood;
+} 
+
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color:burlywood;
+}
+
+.footer-bottom {
+    margin-top: 80%;
+    background-color:navy;
+    color: #ccc;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-flex;
+}
+
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-section {
+        margin: 0 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer-section h4 {
+        font-size: 16px;
+    }
+
+    .footer-section p, 
+    .footer-section ul {
+        font-size: 12px;
+    }
+
+    .footer-logo {
+        max-width: 100px;
+    }
+
+    .social-icons img {
+        width: 20px;
+        height: 20px;
+    }
+}
+    </style>
+<body>
+<div class="c1">
+    <header>
+        <div class="logo">
+            <a href="#"><img src="ph/adliving.png" alt="Website Logo"></a>
+        </div>
+        </header>
+
+    <div class="s">
+        <h1>ROOMS</h1>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="ph/g4.png">
+            <div class="card-content">
+                <h2>For Girls-1</h2>
+                <p>Nr. Swastik Char Rasta</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ph/g2.png">
+            <div class="card-content">
+                <h2>For Girls-2</h2>
+                <p>Nr. Ahmedabad University</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ph/g5.png">
+            <div class="card-content">
+                <h2>For Girls-3</h2>
+                <p>Nr. Saint Xavier College</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-container1">
+        <div class="card1">
+            <img src="ph/b1.png">
+            <div class="card-content1">
+                <h2>For Boys-1</h2>
+                <p>Nr. C.G Road</p>
+            </div>
+        </div>
+
+        <div class="card1">
+            <img src="ph/b2.png"></br></br></br>
+            <div class="card-content1">
+                <h2>For Boys-2</h2>
+                <p>Nr. H.L College Road</p>
+            </div>
+        </div>
+
+        <div class="card1">
+            <img src="ph/b3.png"></br></br></br>
+            <div class="card-content1">
+                <h2>For Boys-3</h2>
+                <p>Nr. S.P Stadium</p>
+            </div>
+        </div>
+    </div>
+<footer class="footer">
+        <div class="footer-container">
+            <!-- Logo Section -->
+            <div class="footer-section">
+                <img src="ph/ad.png" alt="Your Logo" class="footer-logo">
+        <h4>Office Address</h4>
+        <p>SF/2,Second Floor,Urja House,Nr.The Golden Time,Swastik Char Rasta,Navrangpura,Ahemdabad-380009.</p>
+        <h4>Contact:</h4>
+        <p>+91 98256 75267</p>
+      </p>
+            </div>
+            
+            
+
+            <!-- Quick Links Section -->
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="room.html">ROOM</a></li>
+                    <li><a href="room.html">GALLERY</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Us Section -->
+            <div class="footer-section">
+                <h4>Terms Feed</h4>
+                <p>TERMS & CONDITIONS</p>
+                <p>PRIVACY & POLICY</p>
+            </div>
+
+            <!-- Follow Us Section -->
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                     <a href="https://www.instagram.com/ad__living?utm_source=qr&igsh=MW4wNHJqcWZmOWdkYw=="><img src="ph/instagram.png"></a>
+                <a href="https://www.facebook.com/profile.php?id=61550584150380&mibextid=ZbWKwL"><img src="ph/facebook.png"></a>
+                <a href="https://www.linkedin.com/in/ad-living-2ba742224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="ph/l.png"></a>
+                 <a href="https://www.justdial.com/Ahmedabad/AD-Living-Navrangpura/079PXX79-XX79-190311100204-D7X4_BZDET"><img src="ph/jd.png"></a>
+                </div>
+        <!--copyright section-->
+        <div class="footer-bottom">
+          <p>&copy; 2024 AD Living. All rights reserved.</p>
+        </div>
+            </div>
+        </div>
+
+       
+    </footer>
+</body>
+</head>

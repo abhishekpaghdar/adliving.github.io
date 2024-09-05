@@ -1,0 +1,861 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- <link rel="stylesheet" type="text/css" href="css/style.css">-->
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- icon link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- icon link -->
+  
+</head>
+<style>
+  /*services*/
+
+    *{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(180deg, skyblue, white);
+    
+}
+/* navbar top */
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            padding: 0 10px;
+        }
+
+        .navbar-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           /* padding: 10px 0;*/
+
+        }
+
+        .social-link img {
+            vertical-align: middle;
+        }
+
+        .logo {
+            text-align: center;
+            
+        }
+
+        .logo i {
+            display: block;
+        }
+
+        .logo img {
+            vertical-align: middle;
+        }
+/* Base button styling */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+        
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .navbar-top {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .logo {
+                margin: 5px 0;
+            }
+            
+        }
+
+        @media (max-width: 480px) {
+            .logo i {
+                font-size: 12px;
+            }
+            
+        }
+
+/* navbar top */
+
+/* main content */ 
+
+/* navbar */
+
+#navbar-color{
+    background-color: rgba(238,224,208);
+}
+.navbar.nav{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nav-link{
+    font-weight: bold;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: green;
+}
+/* navbar */
+
+/* main content */ 
+.s{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 2.7em;
+
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.card-container1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 70px;
+}
+.card1{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 70px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 20px;
+}
+.card-content1{
+    padding: 20px;
+}
+
+.card-content h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}   
+.card-content1 h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}   
+.card-content p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+.card-content1 p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* About Us  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(180deg, skyblue,white);
+}
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+.heading h1{
+    /*font-size: 2.7em;*/
+    color: #000;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.container{
+    width: 90%; 
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+
+}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-image img:hover{
+    transform: scale(1.2);
+}
+
+/* Rooms  */
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(180deg, skyblue, white);
+    
+}
+.s{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 2em;
+
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.card-container1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 70px;
+}
+.card1{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 70px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 20px;
+}
+.card-content1{
+    padding: 20px;
+}
+
+.card-content h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}   
+.card-content1 h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}   
+.card-content p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+.card-content1 p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* map */
+
+
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(180deg, skyblue, white);
+    line-height: 1.5;
+}
+.contact-bg{
+    text-align: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-bg h2{
+    font-size: 2.4em;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+}
+
+.contact-bg h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.text{
+    font-weight: 300;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Footer */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(180deg, skyblue, white);
+}
+
+.footer {
+    background-color:navy;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px 0;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer-section p:hover{
+    color:burlywood;
+}
+.footer-section p:hover{
+    color:burlywood;
+} 
+
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color:burlywood;
+}
+
+.footer-bottom {
+    margin-top: 80%;
+    background-color:navy;
+    color: #ccc;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-flex;
+}
+
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-section {
+        margin: 0 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer-section h4 {
+        font-size: 16px;
+    }
+
+    .footer-section p, 
+    .footer-section ul {
+        font-size: 12px;
+    }
+
+    .footer-logo {
+        max-width: 100px;
+    }
+
+    .social-icons img {
+        width: 20px;
+        height: 20px;
+    }
+}
+  /* slidebar */
+
+  .carousel-inner img {
+    width: 100%;
+    height: 800px;
+  }
+
+.navbar navbar-expand-lg bg-body-tertiary{
+    position: fixed;
+  }
+  .label h5 {
+margin-left: 10%;
+  }
+  .button{
+    transition-delay: 5s;
+  
+  }
+  .header{
+    background-size: cover; 
+  }
+  .buton{
+    margin-left: 150px;
+    border: 2px;
+    border-color: darkred;
+    margin-bottom: 5px;
+
+  }
+  .buton hover{
+    background-color: red;
+  }
+</style>
+
+
+<body>
+  <!-- tavbar top -->
+
+<div class="container">
+    <div class="navbar-top">
+        <div class="social-link">
+            <i><img src="ph/adliving.png" width="70px" height="65px"></i>
+        </div>
+        <div class="logo"> 
+            <i><a href="tel:+919825675267"><img src="ph/telephone.png" width="30px"></a>+91 98256 75267</i></br>
+            <i><a href="https://maps.app.goo.gl/3QwRrRHUJJdyrijg8?g_st=aw"><img src="ph/google-maps.png" width="25px"></a>Ahmadabad, Gujarat</i>
+        </div>
+        <button><a href="enquiryform.html">ENQUIRY NOW</a></button>
+    </div>
+</div>
+
+  <!-- navbar top -->
+  <!-- MAIN CONTENT-->
+
+<div class="main-content ">
+    <nav class="navbar navbar-expand-md" id="navbar-color">
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span><i><img src="ph/menu.png" width="30px"></i></span>
+  </button>
+
+  <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div class="container">
+            <ul class="navbar-nav" style="display: flex; justify-content: center; width: 100%;">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">SERVICE</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="room.html">ROOM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                 </li>
+             </ul>
+        </div>
+    </div>
+</nav>
+</div>
+
+  <!-- MAIN CONTENT -->
+
+<div class="main">
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="image">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ph/ROOM1.jpg" >
+    </div>
+    <div class="carousel-item">
+      <img src="ph/ROOM2.jpg" >
+    </div>
+    <div class="carousel-item">
+      <img src="ph/ROOM3.jpg">
+    </div>
+    </div>
+  </div>
+  
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+</br></br>
+<!-- Services -->
+
+ <div class="s">
+        <h1 style="font-size: 2.2em;">SERVICES</h1>
+    </div>
+   <div class="card-container">
+        <div class="card">
+            <img src="ph/cab.png">
+            <div class="card-content">
+                <h2>Cab Fccility</h2>
+                <p>Cab facility on request First time Pickup facility free (Airport & Railway Station)</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ph/feedback.png">
+            <div class="card-content">
+                <h2>Feedback System</h2>
+                <p>Continue Reviews And Monthly Feedback System)</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ph/hygiene.png">
+            <div class="card-content">
+                <h2>Qulity Hygiene</h2>
+                <p>Good Health Starts With Good Food Chocice By AD LIVING</p>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- About us -->
+
+ <div class="heading">
+        <h1 style="font-size: 4em;">About Us</h1>
+  </div>
+  <div class="container">
+    <section class="about">
+        <div class="about-image" align="center">
+            <img src="ph/whyad.png"></br></br></br></br></br></br>
+        </div>
+        <div class="about-content">
+            <h2 align="center" style="font-size: 2em;">Welcome To <b> AD LIVING</b></h2></br></br></br>
+            <p style="font-size: 1.4em;">Every student’s and young professionals search for the best LIVING in Ahmedabad truly ends here. Stay AD LIVING offers students and young professionals the kind of living experience that other traditional paying guests in Ahmedabad lack.</p></br></br>
+            <p style="font-size: 1.4em;">We understand the unique needs of working professionals and students. Our thoughtfully designed spaces and amenities ensure that you have everything you need to live comfortably, work efficiently, and connect meaningfully. Whether you want to unwind after a long day at work or engage with like-minded individuals, our PG offers the perfect environment for both.
+            </p>
+          <a href="about.html" class="btn btn-success"> Read More</a>  
+        </div>
+      </section>
+  </div>
+
+<!-- Rooms -->
+
+    <div class="s">
+        <h1 style="font-size: 2.2em;">ROOMS</h1>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="ph/g4.png">
+            <div class="card-content">
+                <h2>For Girls-1</h2>
+                <p>Nr. Swastik Char Rasta</p>
+                <a href="https://wa.me/+919825675267" class="btn btn-primary">Book Now</a>
+                <a href="https://wa.me/+919825675267" class="btn btn-success">Whatsapp</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ph/g2.png">
+            <div class="card-content">
+                <h2>For Girls-2</h2>
+                <p>Nr. Ahmedabad University</p>
+                <a href="https://wa.me/+919825675267" class="btn btn-primary">Book Now</a>
+                <a href="https://wa.me/+919825675267" class="btn btn-success">Whatsapp</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ph/g5.png">
+            <div class="card-content">
+                <h2>For Girls-3</h2>
+                <p>Nr. Saint Xavier College</p>
+                <a href="https://wa.me/+919825675267" class="btn btn-primary">Book Now</a>
+                <a href="https://wa.me/+919825675267" class="btn btn-success">Whatsapp</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-container1">
+        <div class="card1">
+            <img src="ph/b1.png">
+            <div class="card-content1">
+                <h2>For Boys-1</h2>
+                <p>Nr. C.G Road</p>
+                <a href="form.php" class="btn btn-primary">Book Now</a>
+                <a href="form.php" class="btn btn-success">Whatsapp</a>
+            </div>
+        </div>
+
+        <div class="card1">
+            <img src="ph/b2.png"></br>
+            <div class="card-content1">
+                <h2>For Boys-2</h2>
+                <p>Nr. H.L College Road</p>
+                <a href="https://wa.me/+919825675267" class="btn btn-primary">Book Now</a>
+                <a href="https://wa.me/+919825675267" class="btn btn-success">Whatsapp</a>
+            </div>
+        </div>
+
+        <div class="card1">
+            <img src="ph/b3.png"></br>
+            <div class="card-content1">
+                <h2>For Boys-3</h2>
+                <p>Nr. S.P Stadium</p>
+                <a href="https://wa.me/+919825675267" class="btn btn-primary">Book Now</a>
+                <a href="https://wa.me/+919825675267" class="btn btn-success">Whatsapp</a>
+            </div>
+        </div>
+    </div>
+
+<!-- Map -->
+  <section class="contact-section">
+        <div class="contact-bg">
+            <div class="contact-container">
+                <h2><b>Explore Neighborhood</b></h2>
+                <h3><b> HEAD OFFICE</b></h3>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <p class="text">SF/2, Second Floor, Urja House, Near The Golden Time, Swastik Char Rasta, Navrangura, Ahmedabad-380009.</p>
+        </div>
+ <div class="map">
+        </div>
+
+<!-- Contact Form -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.6346113454647!2d72.5613327!3d23.0371845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85abff155885%3A0x2133adf3207dbfa7!2sAD%20LIVING!5e0!3m2!1sen!2sin!4v1723911825800!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+<section class="my-5">
+  <div class="py-5">
+    <h2 class="text-center" style="font-family: georgia, serif; font-size:4em;">Contact Us</h2>
+  </div>
+
+<div class="w-50 m-auto">
+  <form action="userinfo.php" method="POST">
+    <div class="form-group"> 
+        <label style="font-family: georgia, serif; font-size:1.5em;">Full Name</label>
+        <input type="text" name="name"  class="form-control" style="border: solid black 2px;">
+    </div>
+    
+     <div class="form-group"> 
+        <label style="font-family: georgia, serif; font-size:1.5em;">Mobile Number</label>
+        <input type="text" name="mobile" autocomplete="" class="form-control" style="border: solid black 2px;">
+    </div>
+
+     <div class="form-group"> 
+        <label style="font-family: georgia, serif; font-size:1.5em;">City</label>
+        <input type="text" name="city" autocomplete="" class="form-control" style="border: solid black 2px;">
+    </div>
+
+     <div class="form-group"> 
+        <label style="font-family: georgia, serif; font-size:1.5em;">Required</label>
+        <textarea class="form-control" name="required" style="border: solid black 2px;"></textarea>
+    </div>
+    <a href="https://wa.me/+919825675267" class="btn btn-primary">SUBMIT</a>
+    <!--<button type="submit" class="btn btn-" style="font-size:1.5em;" name="submit">Submit</button>-->
+  </form>
+</div>
+</section>
+</br>
+
+
+
+ <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo Section -->
+            <div class="footer-section">
+                <img src="ph/ad.png" alt="Your Logo" class="footer-logo">
+        <h4>Office Address</h4>
+        <p>SF/2,Second Floor,Urja House,Nr.The Golden Time,Swastik Char Rasta,Navrangpura,Ahemdabad-380009.</p>
+        <h4>Contact:</h4>
+        <p>+91 98256 75267</p>
+      </p>
+            </div>
+            
+            
+
+            <!-- Quick Links Section -->
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">ROOM</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Us Section -->
+            <div class="footer-section">
+                <h4>Terms Feed</h4>
+                <p>TERMS & CONDITIONS</p>
+                <p>PRIVACY & POLICY</p>
+            </div>
+
+            <!-- Follow Us Section -->
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                     <a href="https://www.instagram.com/ad__living?utm_source=qr&igsh=MW4wNHJqcWZmOWdkYw=="><img src="ph/instagram.png"></a>
+                <a href="https://www.facebook.com/profile.php?id=61550584150380&mibextid=ZbWKwL"><img src="ph/facebook.png"></a>
+                <a href="https://www.linkedin.com/in/ad-living-2ba742224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="ph/l.png"></a>
+                 <a href="https://www.justdial.com/Ahmedabad/AD-Living-Navrangpura/079PXX79-XX79-190311100204-D7X4_BZDET"><img src="ph/jd.png"></a>
+                </div>
+        <!--copyright section-->
+        <div class="footer-bottom">
+          <p>&copy; 2024 AD Living. All rights reserved.</p>
+        </div>
+            </div>
+        </div>     
+    </footer>
+</body>
+</html>
